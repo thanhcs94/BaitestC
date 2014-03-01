@@ -12,11 +12,13 @@ void phantichso(int n)
 
     if(n>1)
     {
+
          if(n%i!=0)
         {
             i++;
             phantichso(n);
         }
+        else
         if(n%i==0)
         {
             cout<<i<<" ";
@@ -28,7 +30,7 @@ void phantichso(int n)
 
 int main()
 {
-    phantichso(450);
+    phantichso(18);
     getch();
     return 0;
 }
